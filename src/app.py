@@ -11,10 +11,10 @@ x_range = np.linspace(0,100,101)
 from dash import Dash, html, dcc, callback, Output, Input, State
 import pandas as pd
 import plotly.express as px
-
+'''
 # Incorporate data
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminder2007.csv')
-
+'''
 # Initialize the app
 app = Dash(__name__)
 server = app.server
@@ -215,5 +215,5 @@ def update_graph(n_clicks,input_val1,input_val2,input_val3,input_val4,input_val5
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(host="0.0.0.0", port="8050")
+    app.run_server(host="0.0.0.0", port="8051")
     #app.run(debug=True, port=8050)
