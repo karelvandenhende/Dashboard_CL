@@ -3,7 +3,7 @@ services:
   - type: web
     name: CL_KVDH
     env: python
-    location: Frankfurt (EU Central)
+    location: Frankfurt
     plan: free
     # A requirements.txt file must exist
     buildCommand: pip install -r requirements.txt
