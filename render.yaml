@@ -5,7 +5,7 @@ services:
     name: Test_KVDH
 =======
     name: Test_KVDH
-    region: Frankfurt
+    region: Frankfurt (EU Central)
 >>>>>>> 8b53703eb0909d0dece636fbb1f31b4cf3f57ef0
     env: python
     plan: free
